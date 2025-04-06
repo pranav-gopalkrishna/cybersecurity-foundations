@@ -7,6 +7,7 @@ _Network-level vulnerabilities and how to secure networks._
 **Contents**:
 
 - [Overview](#overview)
+- [Further Reading](#further-reading)
 
 ---
 
@@ -15,3 +16,7 @@ _Network-level vulnerabilities and how to secure networks._
 - Network operations
 - Security against network intrusions
 - Security hardening
+
+# Further Reading
+- [Network Concepts](./network-concepts.md)
+- [Cloud Computing](./cloud-computing.md)

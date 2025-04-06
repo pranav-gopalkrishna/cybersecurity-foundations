@@ -7,12 +7,12 @@
 - [Definition](#definition)
 - [Purpose](#purpose)
 - [SIEM tools + Playbook](#siem-tools--playbook)
-- [Incident response playbook](#incident-response-playbook)
+- [Incident Response Playbook](#incident-response-playbook)
   - [Phases](#phases)
     - [Preparation](#preparation)
-    - [Detection and analysis](#detection-and-analysis)
+    - [Detection and Analysis](#detection-and-analysis)
     - [Containment](#containment)
-    - [Eradication and recovery](#eradication-and-recovery)
+    - [Eradication and Recovery](#eradication-and-recovery)
     - [Coordination](#coordination)
 
 ---
@@ -50,12 +50,12 @@ SIEM tools and playbooks work together to provide a...
 
 ... way of responding to potential security incidents.
 
-# Incident response playbook
+# Incident Response Playbook
 Developed based on the goals outlined in business continuity plan.
 
 ---
 
-**Business continuity plan**:
+**Business Continuity Plan**:
 
 - Plan to recover and continue to operate business as normal
 - Accounts for disruptions like a security breach
@@ -70,7 +70,7 @@ Developed based on the goals outlined in business continuity plan.
 
 _Preparation sets the foundation for successful incident response._
 
-### Detection and analysis
+### Detection and Analysis
 - FOCUS: Detect and analyse event, which means:
     - Determine whether a breach has occurred
     - Analyse its possible magnitude
@@ -87,7 +87,7 @@ Helps prevent ongoing risks to critical assets and data
 
 => High priority for organisations
 
-### Eradication and recovery
+### Eradication and Recovery
 - FOCUS: Communicate with stakeholders and learn/apply lessons
 - APPROACH:
     - Document incident
