@@ -19,8 +19,7 @@ _Network-level vulnerabilities and how to secure networks._
 
 # Further Reading
 - [Network Concepts](./network-concepts.md)
-    - Network addressing
-    - Port
+    - Network addressing, port and network types
     - Common network devices
     - Virtualisation tools
     - Software-defined network
