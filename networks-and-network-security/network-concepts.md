@@ -9,7 +9,8 @@
 - [Motivation](#motivation)
 - [Key Concepts](#key-concepts)
   - [Network](#network)
-  - [Network Addresses](#network-addresses)
+  - [Network Addressing](#network-addressing)
+  - [Port](#port)
   - [Network Diagram](#network-diagram)
   - [Network Types](#network-types)
     - [LAN](#lan)
@@ -19,7 +20,7 @@
   - [Switch](#switch)
   - [Router](#router)
   - [Modem](#modem)
-- [Wireless Access Point](#wireless-access-point)
+  - [Wireless Access Point](#wireless-access-point)
 - [Virtualisation Tools](#virtualisation-tools)
 - [Software-Defined Network](#software-defined-network)
   - [Benefits of SDNs](#benefits-of-sdns)
@@ -37,7 +38,7 @@ A group of connected\* devices.
 
 \* Connected => Capable of communication with each other
 
-## Network Addresses
+## Network Addressing
 Devices need to find each other on a network to connect.
 
 -> These devices will use unique addresses/identifiers
@@ -66,6 +67,39 @@ _These are called the IP and MAC addresses._
 
 \* _Internet Service Provider_
 
+## Port
+A software-based location that organises:
+
+- Sending of data between devices on a network
+- Receiving of data between devices on a network
+
+---
+
+**Segmentation of Network Traffic**:
+
+- Ports divide network traffic into data segments
+- Segmenting is based on services the segments will perform, e.g.:
+    - Email (assigned to port number 25)
+    - File Transfer (assigned to port number 20)
+    - Secure Internet (assigned to port number 443)
+
+Based on their assigned port number, computers know how to:
+- Prioritise the sent/received data segments
+- Process the sent/received data segments
+
+---
+
+**Analogy to Understand Ports**:
+
+- Network Address = Office Address
+- Port Number = Department Location
+
+---
+
+_In summary_...
+
+Data packets include instructions that tell the receiving device what to do with the information; _these instructions come in the form of a port number_. Port numbers enable computers to (1) split the network traffic and (2) pick and prioritise the operations they will perform with the data.
+
 ## Network Diagram
 Map that shows the devices on the network and how they connect
 
@@ -78,7 +112,6 @@ Map that shows the devices on the network and how they connect
 A network geographically limited to a specific location
 
 => Assigned to a unique public IP address
-
 
 ### WAN
 **Wide Area Network**
@@ -162,7 +195,7 @@ Hence, modem is used to connect a router to the internet, as:
 
 **NOTE**: _Broadband technologies handle high-volume traffic vs. modems._
 
-# Wireless Access Point
+## Wireless Access Point
 Sends and receives digital signals over radio waves.
 
 _Thus, creates a wireless network._

@@ -19,4 +19,15 @@ _Network-level vulnerabilities and how to secure networks._
 
 # Further Reading
 - [Network Concepts](./network-concepts.md)
+    - Network addressing
+    - Port
+    - Common network devices
+    - Virtualisation tools
+    - Software-defined network
 - [Cloud Computing](./cloud-computing.md)
+- [Network Models](./network-models.md)
+    - TCP/IP model
+    - OSI model
+- [Network Layer Communication](./network-layer-communication.md)
+    - IP (IPv4 and IPv6)
+    - Structure of data packets
