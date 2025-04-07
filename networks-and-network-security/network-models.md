@@ -47,6 +47,13 @@ Conceptual organisation of network components and their functions.
     - Standards for routing and addressing data packets <br> _As they travel between devices on a network_
     - IP address is a part of these standards <br> _Functions as an address for each private network_
 
+---
+
+**NOTE**: TCP is not limited to just two devices
+
+- Establishes direct connection between two endpoints
+- But underlying network infrastructure can handle multiple <br> _It can handle routing data packets across multiple devices_
+
 ## The 4 Layers of TCP/IP Model
 TCP/IP model has 4 layers:
 
@@ -105,7 +112,7 @@ Involves:
 - Technologies are italicised
 - Protocols are put in bold font
 
-| Layer | Techn/Protocols | Description |
+| Layer | Techs/Protocols | Description |
 | --- | --- | --- |
 | 1 | _Ethernet_ | <ul><li>Family of wired CN technologies</li><li>Commonly used in local area networks</li> |
 | 1 | _Wireless LAN_ | Generally implemented with Wi-Fi |
@@ -216,7 +223,9 @@ Some formatting functions that occur at layer 6:
 
 ---
 
-E.g.: SSL encrypts data between servers and browsers with HTTPS.
+E.g.: SSL\* encrypts data between servers and browsers with HTTPS.
+
+\* _SSL = Secure Socket Layer_
 
 ### 7. Application Layer
 User connection to the internet via applications and requests.

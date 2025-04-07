@@ -53,7 +53,7 @@ _These are called the IP and MAC addresses._
         - Provided by ISP\* for specific geographical region
         - Allows devices in that region to connect to internet
     - Private IP:
-        - Assigned specific devices in specific geographical region
+        - Assigned by a router to connected devices <br> _Private IPs can be used for intra-LAN communication_
         - Allows communications to be directed to intended devices
 - MAC = Medium Access Control / Media Access Control
     - Identify devices in network segment (part of overall network)
