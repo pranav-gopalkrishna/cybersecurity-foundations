@@ -67,6 +67,11 @@ _These are called the IP and MAC addresses._
 
 \* _Internet Service Provider_
 
+---
+
+- Device's IP address may change over time
+- MAC address is permanent (as it is unique to a device's NIC)
+- 
 ## Port
 A software-based location that organises:
 
