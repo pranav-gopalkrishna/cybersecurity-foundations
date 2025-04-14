@@ -48,16 +48,16 @@ The magnitude and likelihood of harm caused by a threat. Hence:
 
 ---
 
-Hence, a risk anything that can impact the...
+Hence, a risk is anything that can impact the...
 
-- Confidentiality
-- Integrity
-- Availability
+- confidentiality
+- integrity
+- availability
 
 ... of an asset.
 
 ### Low-Risk Asset
-Publicly-exposed asset that presents little-to-know risk, e.g.:
+Publicly-exposed asset that presents little-to-no risk, e.g.:
 
 - Public website information
 - Published research papers
