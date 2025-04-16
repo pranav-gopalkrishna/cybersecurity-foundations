@@ -30,3 +30,7 @@ _Network-level vulnerabilities and how to secure networks._
 - [Network Layer Communication](./network-layer-communication.md)
     - IP (IPv4 and IPv6)
     - Structure of data packets
+- [Network Protocols](./network-protocols.md)
+    - Categories of protocols (communication, management, security)
+    - Additional network protocols
+    - Wireless protocols

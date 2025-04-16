@@ -31,3 +31,10 @@ _My learning and progress of cybersecurity fundamentals._
     - Knowledge of basic security tools
     - Understanding how to protect assets and data
 - **Course 3**: [Networks and Network Security](./networks-and-network-security)
+    - Network topics
+        - Core concepts
+        - Models
+        - Protocols
+    - Network security
+    - Network intrusion tactics
+    - Network attack protection

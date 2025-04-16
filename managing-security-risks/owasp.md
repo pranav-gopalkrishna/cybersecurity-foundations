@@ -40,7 +40,7 @@ All potential vulnerabilities a threat actor could exploit, e.g.:
     - Insecure API endpoints
 
 ## Attack Vector
-A pathway an attacker can use to penetrate security defenses, e.g.:
+Pathway/method attackers can use to breach security defenses, e.g.:
 
 - Weak password
 - Phishing email

@@ -73,7 +73,7 @@ _These are called the IP and MAC addresses._
 - MAC address is permanent (as it is unique to a device's NIC)
 - 
 ## Port
-A software-based location that organises:
+A software-defined location (memory address) that organises:
 
 - Sending of data between devices on a network
 - Receiving of data between devices on a network
