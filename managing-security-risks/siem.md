@@ -205,7 +205,7 @@ This would be relevant for a security analyst.
 # SOAR: Automation in the use of SIEM tools
 **CHALLENGE**:
 
-The more interconnected devices there are, the larger the cybersecurity attack surface and the amount of data that threat actors can exploit. The diversity of attacks and data that require special attention is expected to grow significantly.
+The more interconnected devices there are, the larger the cyber [attack surface](./owasp.md#attack-surface-area) and the amount of data that threat actors can exploit. The diversity of attacks and data that require special attention is expected to grow significantly.
 
 ---
 
@@ -213,4 +213,4 @@ The more interconnected devices there are, the larger the cybersecurity attack s
 
 The implementation of automation will help security teams respond faster to possible incidents, performing many actions without waiting for a human response. **Security orchestration, automation, and response (SOAR)** is a collection of applications, tools, and workflows that uses automation to respond to security events. Essentially, this means that handling common security-related incidents with the use of SIEM tools is expected to become a more streamlined process requiring less manual intervention.
 
-This frees up security analysts to handle more complex and uncommon incidents that, consequently, cannot be automated with a SOAR. Nevertheless, the expectation is for cybersecurity-related platforms to communicate and interact with one another. Although the technology allowing interconnected systems and devices to communicate with each other exists, it is still a work in progress.
+This frees up security analysts to handle more complex and uncommon incidents that, consequently, cannot be automated with a SOAR. To enable this, the expectation is for cybersecurity-related platforms to communicate and interact with one another. Although the technology allowing interconnected systems and devices to communicate with each other exists, it is still a work in progress.
