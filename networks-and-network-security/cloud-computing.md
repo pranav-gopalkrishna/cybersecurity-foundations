@@ -82,7 +82,7 @@ _CNs allow access online services and web apps from any location._
 - Custom applications are designed and accessed in the cloud <br> _Used for a company’s specific business needs_
 
 # Software-Defined Network (SDN) in Cloud Computing
-See: ["Software-Defined Network:, _Network Concepts_](./network-concepts.md#software-defined-network)
+See: ["Software-Defined Network", _Network Concepts_](./network-concepts.md#software-defined-network)
 
 ---
 
