@@ -49,7 +49,7 @@ Conceptual organisation of network components and their functions.
 
 ---
 
-**NOTE**: TCP is not limited to just two devices
+**NOTE**: TCP-based network is not limited to just 2 devices
 
 - Establishes direct connection between two endpoints
 - But underlying network infrastructure can handle multiple <br> _It can handle routing data packets across multiple devices_
