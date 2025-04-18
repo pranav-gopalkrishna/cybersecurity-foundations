@@ -41,7 +41,7 @@ E.g.: DNS to divert traffic from intended to malicious website.
 ## Communication Protocols
 _Govern the exchange of information in network transmission._
 
-- Dictate how the format and timing of transmitted data
+- Dictate the format and timing of transmitted data
 - Also include methods to recover data lost in transit
 
 E.g.: TCP, UDP, HTTP, DNS
