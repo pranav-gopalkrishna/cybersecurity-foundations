@@ -32,7 +32,7 @@ Conceptual organisation of network components and their functions.
 
 =>
 
-- Hierarchy of abstraction/complexity
+- Hierarchy of information complexity
 - Division of layers by broad functionality
 - Visualisation of how data is organised and transmitted
 
