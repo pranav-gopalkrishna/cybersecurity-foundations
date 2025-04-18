@@ -9,9 +9,9 @@
   - [Breaking Down the Terms](#breaking-down-the-terms)
   - [The 4 Layers of TCP/IP Model](#the-4-layers-of-tcpip-model)
     - [1. Network Access Layer](#1-network-access-layer)
-  - [2. Internet Layer (also called "Network Layer")](#2-internet-layer-also-called-network-layer)
-  - [3. Transport Layer](#3-transport-layer)
-  - [4. Application Layer](#4-application-layer)
+    - [2. Internet Layer (also called "Network Layer")](#2-internet-layer-also-called-network-layer)
+    - [3. Transport Layer](#3-transport-layer)
+    - [4. Application Layer](#4-application-layer)
   - [Protocols Per Layer](#protocols-per-layer)
 - [OSI Model](#osi-model)
   - [7 Layers](#7-layers)
@@ -74,7 +74,7 @@ Involves:
     - Hardware devices connected to physical cables
     - Switches that direct data to their destination
 
-## 2. Internet Layer (also called "Network Layer")
+### 2. Internet Layer (also called "Network Layer")
 FOCUS: _Accurate routing of data packets._
 
 Involves:
@@ -83,7 +83,7 @@ Involves:
 - How networks connect to each other
 - Determine routing of data packets (locally or remotely)
 
-## 3. Transport Layer
+### 3. Transport Layer
 FOCUS: _Flow of network traffic._
 
 Involves:
@@ -93,7 +93,7 @@ Involves:
 - Information about the status of the connection
 - Error control (i.e. detection and/or correction)
 
-## 4. Application Layer
+### 4. Application Layer
 FOCUS: _Interaction between data packets and receiving devices._
 
 Involves:
