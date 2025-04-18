@@ -61,7 +61,7 @@ _CNs allow access online services and web apps from any location._
 ## Categories of Provided Services
 ### Software-as-a-Service (SaaS)
 - Software suites operated by the CSP
-- One can used them remotely without hosting the software
+- One can use them remotely without hosting the software
 
 ### Infrastructure-as-a-Service (IaaS)
 - Virtual computer components offered by the CSP
