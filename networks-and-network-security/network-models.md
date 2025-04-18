@@ -209,9 +209,11 @@ Data translation in network communications, which means:
 
 - Translation between data formats of systems
     - Sender and receiver may use different formats
-    - Presentation layer standardises their interface
+    - Presentation layer standardises their interface\*
 - Encryption/decryption
 - Compression/extraction
+
+\* _I.e.: Data transfer interface between the systems._
 
 ---
 
