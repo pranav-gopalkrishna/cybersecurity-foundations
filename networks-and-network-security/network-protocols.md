@@ -24,7 +24,7 @@ Set of rules for exchange/transmission of data between devices.
 They serve to describe:
 
 - Order of delivery (e.g. segmentation order, priority, etc.)
-- Structure of data (e.g. format for metadata, content,, etc.)
+- Structure of data (e.g. format for metadata, content, etc.)
 
 ---
 
