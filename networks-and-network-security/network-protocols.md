@@ -137,7 +137,7 @@ E.g.: HTTPS, SFTP
     - **Category**: Communication
     - **TCP/IP layer**: Internet
 
-# Port number per protocol:
+# Port number per protocol
 
 | Protocol | Port |
 | --- | --- |
