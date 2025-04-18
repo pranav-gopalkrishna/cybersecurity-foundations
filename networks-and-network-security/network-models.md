@@ -155,7 +155,7 @@ Correspondence with TCP/IP model layers (given on the right):
 ```
 
 ### 1. Physical Layer
-Physical hardware involves in network transmissions.
+Physical hardware involved in network transmissions.
 
 ### 2. Data Link Layer
 Sending/receiving data packets within a single (local) network.
