@@ -220,6 +220,8 @@ Set of standards network devices use to communicate wirelessly.
 
 _Devices with wireless adapters connect to access point using Wi-Fi._
 
+**NOTE**:  _Wi-Fi = Brand name dir IEEE 802.11 standards_
+
 
 # Virtualisation Tools
 - Network tools are physical devices
