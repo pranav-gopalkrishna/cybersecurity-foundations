@@ -61,7 +61,7 @@ _CNs allow access online services and web apps from any location._
 ## Categories of Provided Services
 ### Software-as-a-Service (SaaS)
 - Software suites operated by the CSP
-- One can used them remotely without hosting the software
+- One can use them remotely without hosting the software
 
 ### Infrastructure-as-a-Service (IaaS)
 - Virtual computer components offered by the CSP
@@ -82,7 +82,7 @@ _CNs allow access online services and web apps from any location._
 - Custom applications are designed and accessed in the cloud <br> _Used for a company’s specific business needs_
 
 # Software-Defined Network (SDN) in Cloud Computing
-See: ["Software-Defined Network:, _Network Concepts_](./network-concepts.md#software-defined-network)
+See: ["Software-Defined Network", _Network Concepts_](./network-concepts.md#software-defined-network)
 
 ---
 

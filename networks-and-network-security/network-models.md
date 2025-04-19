@@ -9,9 +9,9 @@
   - [Breaking Down the Terms](#breaking-down-the-terms)
   - [The 4 Layers of TCP/IP Model](#the-4-layers-of-tcpip-model)
     - [1. Network Access Layer](#1-network-access-layer)
-  - [2. Internet Layer (also called "Network Layer")](#2-internet-layer-also-called-network-layer)
-  - [3. Transport Layer](#3-transport-layer)
-  - [4. Application Layer](#4-application-layer)
+    - [2. Internet Layer (also called "Network Layer")](#2-internet-layer-also-called-network-layer)
+    - [3. Transport Layer](#3-transport-layer)
+    - [4. Application Layer](#4-application-layer)
   - [Protocols Per Layer](#protocols-per-layer)
 - [OSI Model](#osi-model)
   - [7 Layers](#7-layers)
@@ -32,7 +32,7 @@ Conceptual organisation of network components and their functions.
 
 =>
 
-- Hierarchy of abstraction/complexity
+- Hierarchy of information complexity
 - Division of layers by broad functionality
 - Visualisation of how data is organised and transmitted
 
@@ -49,7 +49,7 @@ Conceptual organisation of network components and their functions.
 
 ---
 
-**NOTE**: TCP is not limited to just two devices
+**NOTE**: TCP-based network is not limited to just 2 devices
 
 - Establishes direct connection between two endpoints
 - But underlying network infrastructure can handle multiple <br> _It can handle routing data packets across multiple devices_
@@ -74,7 +74,7 @@ Involves:
     - Hardware devices connected to physical cables
     - Switches that direct data to their destination
 
-## 2. Internet Layer (also called "Network Layer")
+### 2. Internet Layer (also called "Network Layer")
 FOCUS: _Accurate routing of data packets._
 
 Involves:
@@ -83,7 +83,7 @@ Involves:
 - How networks connect to each other
 - Determine routing of data packets (locally or remotely)
 
-## 3. Transport Layer
+### 3. Transport Layer
 FOCUS: _Flow of network traffic._
 
 Involves:
@@ -93,7 +93,7 @@ Involves:
 - Information about the status of the connection
 - Error control (i.e. detection and/or correction)
 
-## 4. Application Layer
+### 4. Application Layer
 FOCUS: _Interaction between data packets and receiving devices._
 
 Involves:
@@ -155,7 +155,7 @@ Correspondence with TCP/IP model layers (given on the right):
 ```
 
 ### 1. Physical Layer
-Physical hardware involves in network transmissions.
+Physical hardware involved in network transmissions.
 
 ### 2. Data Link Layer
 Sending/receiving data packets within a single (local) network.
@@ -209,9 +209,11 @@ Data translation in network communications, which means:
 
 - Translation between data formats of systems
     - Sender and receiver may use different formats
-    - Presentation layer standardises their interface
+    - Presentation layer standardises their interface\*
 - Encryption/decryption
 - Compression/extraction
+
+\* _I.e.: Data transfer interface between the systems._
 
 ---
 

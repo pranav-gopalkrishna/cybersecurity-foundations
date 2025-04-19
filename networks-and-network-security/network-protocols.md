@@ -25,6 +25,7 @@
   - [Internet Message Access Protocol (IMAP)](#internet-message-access-protocol-imap)
   - [Simple Mail Transfer Protocol (SMTP)](#simple-mail-transfer-protocol-smtp)
 - [Port number per protocol](#port-number-per-protocol)
+- [Port number per protocol](#port-number-per-protocol-1)
 - [Wireless networking protocols](#wireless-networking-protocols)
   - [Wi-Fi (Wireless Fidelity)](#wi-fi-wireless-fidelity)
     - [Wired Equivalent Privacy (WEP)](#wired-equivalent-privacy-wep)
@@ -57,7 +58,7 @@ Set of rules for exchange/transmission of data between devices.
 They serve to describe:
 
 - Order of delivery (e.g. segmentation order, priority, etc.)
-- Structure of data (e.g. format for metadata, content,, etc.)
+- Structure of data (e.g. format for metadata, content, etc.)
 
 ---
 
@@ -74,7 +75,7 @@ E.g.: DNS to divert traffic from intended to malicious website.
 ## Communication Protocols
 _Govern the exchange of information in network transmission._
 
-- Dictate how the format and timing of transmitted data
+- Dictate the format and timing of transmitted data
 - Also include methods to recover data lost in transit
 
 E.g.: TCP, UDP, HTTP, DNS
@@ -215,6 +216,7 @@ _For transmitting + routing mail to intended recipient._
 - **Category**: Communication
 - **TCP/IP layer**: Internet
 
+# Port number per protocol
 # Port number per protocol
 
 | Protocol | Port |

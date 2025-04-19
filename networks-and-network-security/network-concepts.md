@@ -162,15 +162,17 @@ BACKGROUND:
     - Does so for transmitting specific information
 - **Demodulation**: 
     - Extracts information-bearing signal from a carrier wave
-    - Does so for extracting information send through carrier wave
+    - Does so for extracting information sent through carrier wave
 
 \* _Information-bearing signal is encoded into carrier wave._
 
+**NOTE**: _Carrier wave is an analog signal._
+
 ---
 
-FUNCTION:
+FUNCTIONS:
 
-Converts data from...
+**1. Converts data** from...
 
 ... digital format
 
@@ -181,13 +183,18 @@ _into_
 - Telephone
 - Radio
 
+**2. Transmits data by modulating one or more carrier wave signals** 
+
+To encode digital info.
+
+**3. Receives data by demodulating signal to recreate digital info**
+
 ---
 
-- Transmits data by modulating one or more carrier wave signals <br> _To encode digital info_
-- Receives data by demodulating signal to recreate digital info
-- GOALS:
-    - Produce a signal that can be transmitted and decoded reliably
-    - Extract information from such a signal
+GOALS:
+
+- Produce a signal that can be transmitted and decoded reliably
+- Extract information from such a signal
 
 ---
 
@@ -212,6 +219,8 @@ _Thus, creates a wireless network._
 Set of standards network devices use to communicate wirelessly.
 
 _Devices with wireless adapters connect to access point using Wi-Fi._
+
+**NOTE**:  _Wi-Fi = Brand name for IEEE 802.11 standards_
 
 
 # Virtualisation Tools
