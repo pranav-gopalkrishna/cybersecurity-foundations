@@ -189,7 +189,7 @@ SSH is a standard for:
 - Secure remote logins
 - File transfers over untrusted networks
 
-SSH also enables SSH tunnelling (see next subsection).
+A key method of achieving the above is via SSH tunnelling.
 
 ### RELATED CONCEPT: SSH Tunnelling
 
