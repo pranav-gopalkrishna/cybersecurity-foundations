@@ -34,7 +34,7 @@
       - [Goals](#goals-1)
       - [Improvements over WEP](#improvements-over-wep)
       - [Vulnerability: KRACK Attack](#vulnerability-krack-attack)
-    - [Background Facts](#background-facts-1)
+      - [Background Facts](#background-facts-1)
     - [WPA2](#wpa2)
       - [Improvements on WPA](#improvements-on-wpa)
       - [Vulnerability: KRACK Attack](#vulnerability-krack-attack-1)
@@ -343,7 +343,7 @@ Elucidation:
 
 WPA2 aims to overcome this significant vulnerability.
 
-### Background Facts
+#### Background Facts
 - Developed in 2003
 - Ensures backward compatibility with older hardware
 - Intended as a transitional measure to fix WEP's flaws

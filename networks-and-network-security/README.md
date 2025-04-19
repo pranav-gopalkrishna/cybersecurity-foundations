@@ -32,5 +32,5 @@ _Network-level vulnerabilities and how to secure networks._
     - Structure of data packets
 - [Network Protocols](./network-protocols.md)
     - Categories of protocols (communication, management, security)
-    - Additional network protocols
+    - Common and additional network protocols
     - Wireless protocols
