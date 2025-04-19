@@ -293,7 +293,7 @@ A set of...
 
 **KEY POINTS**:
 
-- Wi-Fi is a suite of protocols, not a single protocol
+- Wi-Fi contains a suite of protocols, not a single protocol
 - Wi-Fi uses high-frequency radio waves
 
 ---
