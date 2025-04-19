@@ -24,20 +24,19 @@
   - [Post Office Protocol (POP)](#post-office-protocol-pop)
   - [Internet Message Access Protocol (IMAP)](#internet-message-access-protocol-imap)
   - [Simple Mail Transfer Protocol (SMTP)](#simple-mail-transfer-protocol-smtp)
-- [Port number per protocol](#port-number-per-protocol)
-- [Port number per protocol](#port-number-per-protocol-1)
-- [Wireless networking protocols](#wireless-networking-protocols)
+- [Port Number per Protocol](#port-number-per-protocol)
+- [Wireless Network Protocols (WNPs)](#wireless-network-protocols-wnps)
   - [Wi-Fi (Wireless Fidelity)](#wi-fi-wireless-fidelity)
     - [Wired Equivalent Privacy (WEP)](#wired-equivalent-privacy-wep)
       - [Goals](#goals)
       - [Background facts](#background-facts)
-    - [Wi-Fi Protected Access (WAP)](#wi-fi-protected-access-wap)
+    - [Wi-Fi Protected Access (WPA)](#wi-fi-protected-access-wpa)
       - [Goals](#goals-1)
       - [Improvements over WEP](#improvements-over-wep)
       - [Vulnerability: KRACK Attack](#vulnerability-krack-attack)
     - [Background Facts](#background-facts-1)
     - [WPA2](#wpa2)
-      - [Improvements on WAP](#improvements-on-wap)
+      - [Improvements on WPA](#improvements-on-wpa)
       - [Vulnerability: KRACK Attack](#vulnerability-krack-attack-1)
       - [Setup Modes](#setup-modes)
         - [Personal](#personal)
@@ -46,6 +45,8 @@
     - [WPA3](#wpa3)
       - [Improvements on WPA2](#improvements-on-wpa2)
       - [Background Facts](#background-facts-3)
+    - [Tabular Comparison of WES, WPA, WPA2 and WPA3](#tabular-comparison-of-wes-wpa-wpa2-and-wpa3)
+    - [References](#references)
   - [Relevance of Knowing History of Wireless Protocols](#relevance-of-knowing-history-of-wireless-protocols)
 
 ---
@@ -216,8 +217,7 @@ _For transmitting + routing mail to intended recipient._
 - **Category**: Communication
 - **TCP/IP layer**: Internet
 
-# Port number per protocol
-# Port number per protocol
+# Port Number per Protocol
 
 | Protocol | Port |
 | --- | --- |
@@ -234,10 +234,23 @@ _For transmitting + routing mail to intended recipient._
 | SMTP | TCP/UDP Port 25 (unencrypted) |
 | SMTPS | TCP/UDP port 587 (encrypted, TLS) |
 
-# Wireless networking protocols
+# Wireless Network Protocols (WNPs)
 Define rules and standards for communication on wireless networks.
 
-Chief example: _Radio-wave technology._
+Wireless technology examples:
+
+- Radio waves
+- VIsible light (e.g. tight-beam lasers)
+- Sonic waves
+
+---
+
+**KEY POINT**:
+
+- WNPs are solutions for:
+    - [Network Access Layer](./network-models.md#1-network-access-layer) (TCP/IP model)
+    - [Physical Layer](./network-models.md#1-physical-layer) and [Data Link Layer](./network-models.md#2-data-link-layer) (OSI model)
+- Higher-layer protocols (TCP, HTTP, DNS, etc.) can build on WNPs
 
 ## Wi-Fi (Wireless Fidelity)
 A set of...
@@ -249,7 +262,14 @@ A set of...
 
 ---
 
-**NOTE: Background facts about Wi-Fi**:
+**KEY POINTS**:
+
+- Wi-Fi is a suite of protocols, not a single protocol
+- Wi-Fi uses high-frequency radio waves
+
+---
+
+**NOTE: Background Facts about Wi-Fi**:
 
 Wi-Fi is...
 
@@ -279,7 +299,7 @@ Level of privacy as on wired network connections
 - Is the oldest of the wireless security standards
 - Too old to support newer Wi-Fi security protocols <br> _Hence, considered a high-risk protocol_
 
-### Wi-Fi Protected Access (WAP)
+### Wi-Fi Protected Access (WPA)
 #### Goals
 - Improve upon WEP
 - Address the security issues that it presented
@@ -311,10 +331,13 @@ Attack outline:
 Elucidation:
 
 - Handshake => Process of establishing wireless connection <br> _Done before sending the data; e.g.: [TCP's SYN-SYN,ACK-ACK](#transmission-control-protocol-tcp)_
-- Handshake involves communication of encryption key to be used <br> _Allows receiving device to decrypt sender's encrypted messages_
-- Handshake naturally involves unencrypted communication of keys <br> _Since neither device knows encryption key a priori_
-- An interceptor can acquire and alter the encryption key used <br> _To either all 0s or to a key known to them_
+- Handshake involves communication about encryption key to be used
+    - Lets receiving device to decrypt sender's encrypted messages
+    - Involves unencrypted data; can let attackers infer the key\* <br> _Since not both devices know encryption key at first_
+- An interceptor may acquire and alter the encryption key used <br> _To either all 0s or to a key known to them_
 - Hence, ensuing data transmission can be interpreted by them
+
+\* _This is not necessarily direct communication of keys._
 
 ---
 
@@ -326,10 +349,10 @@ WPA2 aims to overcome this significant vulnerability.
 - Intended as a transitional measure to fix WEP's flaws
 
 ### WPA2
-#### Improvements on WAP
-WPA2 improves upon WAP by:
+#### Improvements on WPA
+WPA2 improves upon WPA by:
 
-- Using Advanced Encryption Standard (AES) <br> _Provides more secure encryption_
+- Using Advanced Encryption Standard (AES) instead of TKIP <br> _Provides stronger encryption compared to TKIP_
 - Improving on WPA's use of TKIP
 - Using CCM Mode Protocol (CCMP) <br> _CCM = Counter with Cipher Block Chaining Message Authentication_
     - Provides encapsulation <br> _Encapsulation = Containing data packets in encrypted packets_
@@ -372,7 +395,7 @@ Potential attackers cannot recover keys on individual computers
 
 #### Background Facts
 - Released in 2004
-- Aims to improve on WAP
+- Aims to improve on WPA
 - Considered security standard for all Wi-Fi transmissions today <br> _Due to its security strength_
 
 ### WPA3
@@ -405,6 +428,33 @@ By using 128-bit encryption.
 #### Background Facts
 - Is a secure Wi-Fi protocol
 - Growing in usage as more WPA3 compatible devices are released
+
+### Tabular Comparison of WES, WPA, WPA2 and WPA3
+| Protocol | Year | Encryption | Vulnerabilities | Status |
+| --- | --- | --- | --- | --- |
+| WEP | 1999 | RC4 (static) | Easily cracked | Obsolete |
+| WPA | 2003 | TKIP | KRACK | Deprecated |
+| WPA2 | 2004 | AES + CCMP | KRACK | Standard |
+| WPA3 | 2018 | AES + SAE | Few known | Emerging |
+
+### References
+- [_What is WPA3 vs. WPA2?_, **portnox.com**](https://www.portnox.com/cybersecurity-101/wpa3)
+    - Compares WPA3 handshake to WPA2's
+    - Discusses WPA3's superior encyrption
+    - Discusses WPA3's superior IoT support
+- [_WPA vs WPA2_, **AVG.com**](https://www.avg.com/en/signal/what-is-wpa2)
+    - Mentions WPA2 replaces TKIP encryption with AES encryption
+    - Discusses WPA2's dynamic key encryption system
+- [_WPA and WPA2 4-Way Handshake_, **NetworkLessons.com**](https://networklessons.com/wireless/wpa-and-wpa2-4-way-handshake)
+    - More detailed overview of handshake process in WPA and WPA2
+    - Looks at packets captured via Wireshark to illustrate
+- [_Wireless security: WEP, WPA, WPA2 and WPA3 differences_, **TechTarget.com**](https://www.techtarget.com/searchnetworking/feature/Wireless-encryption-basics-Understanding-WEP-WPA-and-WPA2)
+    - Deeper comparison of WEP, WPA, WPA2 and WPA3
+    - Deeper look into KRACK and other vulnerabilities
+- [_IEEE 802.11 Architecture_, ](https://www.geeksforgeeks.org/ieee-802-11-architecture/)
+    - Deeper overview of Wi-Fi as a whole
+    - More detailed discussion of IEEE 802.11 specifications
+    - Discussion of IEEE 802.11's advantages and disadvantages
 
 ## Relevance of Knowing History of Wireless Protocols
 - Older systems/admin settings may use older protocols
