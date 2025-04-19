@@ -20,6 +20,7 @@
   - [Dynamic Host Configuration Protocol (DHCP)](#dynamic-host-configuration-protocol-dhcp)
   - [Address Resolution Protocol](#address-resolution-protocol)
   - [Secure Shell (SSH)](#secure-shell-ssh)
+    - [RELATED CONCEPT: SSH Tunnelling](#related-concept-ssh-tunnelling)
   - [Telnet](#telnet)
   - [Post Office Protocol (POP)](#post-office-protocol-pop)
   - [Internet Message Access Protocol (IMAP)](#internet-message-access-protocol-imap)
@@ -171,16 +172,44 @@ _For retrieving unknown MAC address given IP address._
 - Obtains unknown MAC address given IP address, within LAN
 
 ## Secure Shell (SSH)
-_For remote encrypted and persistent connections._
+_For remote encrypted (i.e. secure) connections._
 
 - **Category**: Security
 - **TCP/IP layer**:
     - Application: Allows remote application interface
     - Transport: Uses TCP to establish connection
 - Builds on TCP => Is connection-oriented <br> _I.e. establishes a connection before data transfer_
-- Like WebSocket, maintains a persistent connection <br> _Note that WebSocket is also built on TCP_
 - PURPOSE: Remote transfer of data and instructions <br> => Remote system _file access/transfer_ + _command execution_ <br> => Remote access of another system, in effect
 - READ MORE: [_What is SSH? | Secure Shell (SSH) protocol_, **Cloudflare.com**](https://www.cloudflare.com/learning/access-management/what-is-ssh)
+
+---
+
+SSH is a standard for:
+
+- Secure remote logins
+- File transfers over untrusted networks
+
+SSH also enables SSH tunnelling (see next subsection).
+
+### RELATED CONCEPT: SSH Tunnelling
+
+_Method of carrying networking data over encrypted SSH connection._
+
+Can be used to:
+
+- Add encryption to legacy applications
+- Implement VPNs (Virtual Private Networks)
+- Access intranet services across firewalls
+
+---
+
+**Elaboration**:
+
+SSH gives the means secure data traffic of any application using **port forwarding**. This is called [SSH tunneling](#related-concept-ssh-tunnelling), i.e. tunnelling any TCP/IP port over SSH. This involves directing application data traffic to flow inside an encrypted SSH connection so that it cannot be eavesdropped or intercepted while it is in transit. _SSH tunneling enables adding network security to legacy applications that do not natively support encryption._
+
+---
+
+> **Reference**: [_SSH Tunneling_, **ssh.com**](https://www.ssh.com/academy/ssh/tunneling)
 
 ## Telnet
 _Similar to SSH in function, but without encryption._
