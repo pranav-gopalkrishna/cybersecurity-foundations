@@ -8,6 +8,7 @@ _Network-level vulnerabilities and how to secure networks._
 
 - [Overview](#overview)
 - [Further Reading](#further-reading)
+- [Additional Material](#additional-material)
 
 ---
 
@@ -34,3 +35,10 @@ _Network-level vulnerabilities and how to secure networks._
     - Categories of protocols (communication, management, security)
     - Common and additional network protocols
     - Wireless protocols
+
+# Additional Material
+- [How to Read `tcpdump` Traffic Log](./how-to-read-the-tcpdump-traffic-log.pdf)
+- [`tcpdump` Traffic Log Example](./assignment2-tcpdump.log)
+- [How to Read WireShark TCP/HTTP Log](./how-to-read-wireshark-tcp-http-log.pdf)
+- [WireShark TCP/HTTP Log Example](./assignment1-wireshark-log.csv)
+- [Network Hardening Tools](./network-hardening-tools.csv)
