@@ -37,4 +37,14 @@ _My learning and progress of cybersecurity fundamentals._
         - Protocols
     - Network security
     - Network intrusion tactics
+        - DoS and DDoS
+        - IP spoofing
+        - Packet sniffing
     - Network attack protection
+        - Firewall
+        - Intrusion detection systems
+        - Intrusion prevention systems
+    - Security hardening
+        - Hardware level
+        - Software level
+        - Network level (+ cloud networks)

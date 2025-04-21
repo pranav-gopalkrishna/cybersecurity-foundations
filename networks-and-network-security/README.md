@@ -20,6 +20,10 @@ _Network-level vulnerabilities and how to secure networks._
 - Security hardening
 
 # Further Reading
+- [_Glossary_](./glossary.pdf)
+
+---
+
 - [Network Concepts](./network-concepts.md)
     - Network addressing, port and network types
     - Common network devices
