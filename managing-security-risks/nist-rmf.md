@@ -40,7 +40,7 @@ Develop risk management processes and tasks for various risk types.
 
 ---
 
-I.e. select what to reference and what refences to update.
+I.e. select what to reference and what references to update.
 
 # 4. Implement
 Implement security and privacy plans for the organisation.
