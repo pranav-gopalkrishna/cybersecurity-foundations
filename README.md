@@ -48,3 +48,4 @@ _My learning and progress of cybersecurity fundamentals._
         - Hardware level
         - Software level
         - Network level (+ cloud networks)
+- [**Course 3**: Linux and SQL](./linux-and-sql/)
