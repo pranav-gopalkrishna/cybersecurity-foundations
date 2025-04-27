@@ -8,6 +8,7 @@ _My learning and progress of cybersecurity fundamentals._
 
 - [Useful Resources](#useful-resources)
 - [Courses](#courses)
+- [Other](#other)
 
 ---
 
@@ -48,4 +49,7 @@ _My learning and progress of cybersecurity fundamentals._
         - Hardware level
         - Software level
         - Network level (+ cloud networks)
-- [**Course 3**: Linux and SQL](./linux-and-sql/)
+- [**Course 3**: Linux and SQL](./linux-and-sql)
+
+# Other
+- [Portfolio](./portfolio)
